@@ -16,4 +16,5 @@ fi;
 wget "https://chromedriver.storage.googleapis.com/2.31/chromedriver_linux64.zip"
 unzip chromedriver_linux64.zip
 
+chmod +x scripts/start-keycloak.sh
 rmdir keycloak-3.2.1.Final;scripts/start-keycloak.sh
